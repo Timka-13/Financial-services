@@ -25,8 +25,6 @@ body{
     .rent_img{
         width: 1519px;
         height: 450px;
-        position: static;
-        margin-top: 800px;
     }
     
     .pro_mene{
@@ -37,10 +35,22 @@ body{
     margin-top: 18px;
     }
     
+    .myzuk{
+            width: 100%;
+            height: 90vh;
+            background: url('Замовити.png');
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            flex-direction: column;
+        }
+        
     .poclyku{
         text-decoration: none;
         color: black;
-        margin-left: 150px;
         font-size: 25px;
         margin-top: 18px;
     }
@@ -56,7 +66,6 @@ body{
     .contakt{
         text-decoration: none;
         color: black;
-        margin-left: 150px;
         font-size: 25px;
         margin-top: 18px;
         background-color: rgba(249, 79, 83, 1);
@@ -68,10 +77,15 @@ body{
     }
     
     .poclugyText{
+        width: 730px;
         font-size: 48px;
-        display: inline-block;
         border-bottom: red 1px solid;
-        margin-left: 380px;
+        text-align: center;
+    }
+
+    .p-div{
+        display: flex;
+        justify-content: center;
     }
     
     .container1{
@@ -88,28 +102,30 @@ body{
     
     .podval{
         background-color: black;
-        width: 1519px;
-        height: 300px;
         color: white;
         display: block;
+        padding: 20px;
         
     }
     
     .h1_contaktu{
-        margin-left: 45px;
-        margin-top: 25px;
         font-size: 48px;
+    }
+
+    .footer-context{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-right: 30px;
     }
     
     .email{
-        margin-left: 45px;
         color: rgb(236, 179, 73); 
         font-size: 25px;
         margin-top: 65px;
     }
     
     .myrhorod{
-        margin-left: 45px;
         font-size: 25px;
             margin-top: 55px;
     }
@@ -141,117 +157,34 @@ body{
     }
     .section{
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         flex-wrap: wrap;
     }
 
-    .zamovutu{
-        position: absolute;
-        top: 162%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
-
-    .contakt2{
-        position: absolute;
-        top: 175%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
-
-    .strilka{
-        position: absolute;
-        top: 168%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
+    .row-one, .row-two{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        margin-bottom: 15px;
     }
 
     .contakt3{
-        position: absolute;
-        top: 268%;
-        left: 85%;
-        transform: translate(-50%, -50%); 
         font-size: 25px;
     }
         
-    .card1{
+     .card{
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: white;
         border-radius: 30px;
-        padding: 10px;
-        position: absolute;
-        top: 47%;
-        left: 20%;
-        transform: translate(-50%, -50%); 
+        padding: 10px; 
+       
     }
 
-    .card2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 30px;
-        padding: 10px;
-        position: absolute;
-        top: 47%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
-
-    .card3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 30px;
-        padding: 10px;
-        position: absolute;
-        top: 47%;
-        left: 80%;
-        transform: translate(-50%, -50%); 
-    }
-
-    .card4{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 30px;
-        padding: 10px;
-        position: absolute;
-        top: 100%;
-        left: 20%;
-        transform: translate(-50%, -50%); 
-    }
-
-        .card5{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 30px;
-        padding: 10px;
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        transform: translate(-50%, -50%); 
-    }
-
-    .card6{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 30px;
-        padding: 10px;
-        position: absolute;
-        top: 100%;
-        left: 80%;
-        transform: translate(-50%, -50%); 
-    }
-
+   
     .a1{
         color: black;
         font-size: 20px;
@@ -278,8 +211,4 @@ body{
         font-size: 20px;
         opacity: 1; 
         margin-left: 5px;
-<<<<<<< HEAD
-    }
-=======
-    }
->>>>>>> 24bfdf0d8c147ed6d62bb7c429b4a24b907dce47
+    } 
